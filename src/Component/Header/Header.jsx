@@ -25,6 +25,7 @@ const Header = () => {
     <header>
 
       <nav className="navigation --flex-between">
+        <div className="logo">
           {navToggle ? (
             <FaTimes
             className="sidebar-toggle-icon"
@@ -39,9 +40,9 @@ const Header = () => {
             />
 
           )}
-            <div className="logo">
+          
 
-          <Link to="/login">
+          <Link to="/homedash">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="14"
@@ -62,7 +63,7 @@ const Header = () => {
           
         </div>
 
-        <div className="navItems --flex-center">
+        <div className="navItems">
           {items.map(({ title, url, i }) => (
             <div key={i}>
               <Link to={url}>{title}</Link>

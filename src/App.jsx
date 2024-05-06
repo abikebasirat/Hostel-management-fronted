@@ -40,7 +40,7 @@ function App() {
             element={
               <Layout>
                 <HomeDash /> 
-             </Layout>
+              </Layout>
             }
           />
           <Route path="/studentdash" element={<StudentDashboard />}/>
