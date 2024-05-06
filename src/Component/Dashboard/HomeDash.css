@@ -242,31 +242,7 @@
 }
 
 
-/* @media (max-width:749px){
 
-    ._homeDashCon{
-        margin: 10px 20px;
-    }
-    
-    .__paraHeader{
-        font-size: 25px;
-        font-weight: 600;
-       } 
-       .__quickTitle{
-        font-weight: 600;
-        padding: 15px;
-       }
-    
-       .__paraCon{
-        width: 100%;
-        padding: 15px;
-    
-       }
-       .__boardHead{
-        font-size: 20px;
-        font-weight: 700;
-       }
-} */
 
  @media (max-width: 749px) {
     ._homeDashCon {
